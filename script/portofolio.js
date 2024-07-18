@@ -49,7 +49,7 @@ var konten_el = document.getElementById("isi_konten");
 
 function append_konten(obj){
     konten_el.innerHTML += `
-        <div class="col-3 col-lg-3 col-md-4 col-sm-6 p-2">
+        <div class="col-lg-3 col-md-4 col-sm-6 p-2">
           <div>
             <div class="bg-light">
               <img class="img-fluid" src="${obj.img_src}" alt="beach_1">

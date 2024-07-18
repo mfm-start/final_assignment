@@ -43,7 +43,6 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 200px;
-    min-height: 300px;
 }
 .index_img{
     background-color: #8293ff;
@@ -81,10 +80,17 @@
 }
 
 .page_title{
-    background-color: #8293ff;
-    color: #E4E4E4;
+    background-color: #E4E4E4;
+    color: #8293ff;
 }
 
 .porto_like:hover{
     color: #8293ff;
+}
+.desc_bawah{
+    color: #E4E4E4;
+}
+
+.desc_bawah:hover{
+    color:aquamarine;
 }
