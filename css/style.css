@@ -1,0 +1,90 @@
+#body{
+    background-color: #FFFFD2;
+}
+#carouselExample {
+  background: rgba(0, 128, 0, 0.3);
+  background-image: url(https://live.staticflickr.com/5563/15185705622_924bb9f537_c.jpg);
+  background-repeat: no-repeat;
+  object-fit:fill;
+}
+
+.nav_item:hover{
+ background-color: rgb(53, 95, 234);
+ color: #FFFFD2;
+}
+.carousel_title{
+    background-color: #FFFFD2;
+    color: #3224b2;
+}
+
+.carousel_text{
+    background-color: #E4E4E4;
+    color: #8293ff;
+}
+
+#navbar_bawah1{
+    background-color: #503BFF;
+    color :#E4E4E4;
+}
+
+.navbar_bawah{
+    color:#E4E4E4;
+    background-color: #503BFF;
+}
+
+.navbar_bawah:hover{
+    color:antiquewhite;
+    background-color: burlywood;
+}
+
+
+.banner{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Banner_Monteverde.png/1197px-Banner_Monteverde.png?20130523093858");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 200px;
+    min-height: 300px;
+}
+.index_img{
+    background-color: #8293ff;
+}
+.index_img:hover{
+    background-color: #FFFFD2;
+}
+
+.index_img_desc{
+    background-color: #503BFF;
+    color : #FFFFD2;
+}
+.index_img_desc:hover + .index_img{
+    background-color: #8293FF;
+    color : #FFFFD2;
+
+}
+
+.icon_text{
+    vertical-align: middle;
+    height: 200px;
+    font-size: 1000px;
+    background-color: #8293ff;
+}
+.icon_text:hover{
+    background-color: #FFFFD2;
+}
+
+.box_title{
+    background-color: #E4E4E4;
+}
+
+#fb_icon:hover{
+    color:#1877F2;
+}
+
+.page_title{
+    background-color: #8293ff;
+    color: #E4E4E4;
+}
+
+.porto_like:hover{
+    color: #8293ff;
+}

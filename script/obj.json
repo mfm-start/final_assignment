@@ -1,0 +1,34 @@
+{"places":
+    [
+    {
+        "id" :1,
+        "category" : "pantai",
+        "img_src" : "./images/beach_bg.jpg",
+        "description" : "ppantai 1"
+    },
+    {
+        "id" :2,
+        "category" : "gunung",
+        "img_src" : "./images/beach_bg.jpg",
+        "description" : "gunung 1"
+    },
+    {
+        "id" :3,
+        "category" : "pantai",
+        "img_src" : "./images/beach_bg.jpg",
+        "description" : "pantai 2"
+    },
+    {
+        "id" :4,
+        "category" : "gunung",
+        "img_src" : "./images/beach_bg.jpg",
+        "description" : "gunung 2"
+    },
+    {
+        "id" :5,
+        "category" : "LN",
+        "img_src" : "./images/beach_bg.jpg",
+        "description" : "LN 1"
+    }
+    
+]}

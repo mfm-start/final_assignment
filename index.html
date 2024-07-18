@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body" onload="load_gambar()">
+
+  <!-- header -->
+    <!-- navbar start -->
+    <nav class="navbar bg-body-tertiary shadow p-3 mb-5">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo_travel.jpg" alt="logo" class="d-inline-block rounded-circle" style="width: 100px; height: auto;">
+            <h1 class="d-inline-block ms-3" style="color:rgb(62, 62, 207);">yuk!</h1>
+          </a>
+
+          <div class="navbar-nav d-inline" >
+            <ul class="navbar-nav d-inline-block align-text-right me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 bg-primary nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./index.html" style="color: white;">HOME</a>
+                </div>
+              </li>
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./portofolio.html" >PORTOFOLIO</a>
+                </div>
+              </li>
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./blog.html" >BLOG</a>
+                </div>
+              </li>
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./about_us.html" >ABOUT US</a>
+                </div>
+              </li>
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./contact.html" >CONTACT</a>
+                </div>
+              </li>
+              <li class="nav-item d-inline me-2">
+                <div class="px-2 py-4 nav_item" style="display: inline-block;">
+                    <a class="nav-link d-inline" href="./todos.html" >TODOS</a>
+                </div>
+              </li>           
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+  <!-- body -->
+    <!-- carousel start -->
+    <div id="carouselExample" class="carousel slide bg-secondary">
+      <div class="carousel-inner" >
+        <!-- slide 1 -->
+        <div class="carousel-item active">
+          <div class="container position-relative">
+            <div class="row">
+              <div class="col-6">
+                <img src="./images/logo_travel.jpg" class="d-block w-100 mh-30" alt="slide2">
+              </div>
+              <div class="col-6">
+                <div class="d-inline-block carousel_title p-2 mb-2" style="margin-top: 200px;">
+                  <h1>enjoy nature</h1>
+                </div>
+                <br>
+                <div class="d-inline-block carousel_title p-2 m-2">
+                  <h1>get immersed in freedom</h1>
+                </div>
+                <br>
+                <div class="d-inline-block carousel_text p-1 m-1">
+                  <h4>evry moment is a treasure</h4>
+                </div>                
+                <br>
+                <div class="d-inline-block carousel_text p-1 m-1">
+                  <h4>another text should appear here</h4>
+                </div>                
+              </div>
+              <button type="button" class="btn btn-outline-primary my-3 mx-3 bg-light position-absolute start-50 top-0 ms-5 mt-5" data-bs-toggle="modal"  style="width: 100px" data-bs-target="#exampleModal">
+                <h4>
+                  order
+                </h4>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div class="carousel-item">
+          <div class="container position-relative">
+            <div class="row">
+              <div class="col-6">
+                test slide 2
+              </div>
+              <div class="col-6">
+                <img src="./images/logo_travel.jpg" class="d-block w-100 mh-30" alt="slide2">
+              </div>
+              <button type="button" class="btn btn-outline-primary my-3 mx-3 bg-light position-absolute end-50 bottom-0 mb-5 me-5" data-bs-toggle="modal" style="width: 100px" data-bs-target="#exampleModal">
+                <h4>
+                  order
+                </h4>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide 3 -->
+        <div class="carousel-item">
+          <div class="container position-relative">
+            <div class="row">
+              <div class="col-6">
+                <img  src="./images/logo_travel.jpg" class="d-block w-100 mh-30" alt="slide3">
+              </div>
+              <div class="col-6">
+                test slide 3
+              </div>
+              <button type="button" class="btn btn-outline-primary my-3 mx-3 bg-light position-absolute start-50 bottom-0 mb-5 ms-5" data-bs-toggle="modal"  style="width: 100px" data-bs-target="#exampleModal">
+                <h4>
+                  order
+                </h4>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <!-- carousel end -->
+
+    <!-- after carousel and card -->
+    <div class="container">
+      <div>
+        <h1 class="text-center my-3">enjoy true freedom</h1>
+        <h4 class="text-center my-3">we will take you wherever you go...</h4>
+      </div>
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-3 col-lg-3 col-md-4 col-sm-6 p-2">
+          <div class="index_card"> 
+            <div >
+              <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Travel_%288274728646%29.jpg" alt="thumbnail1">
+            </div>
+            <div class="index_img_desc">
+              <h4>some title here</h4>
+              <p>some text here</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-3 col-lg-3 col-md-4 col-sm-6 p-3">
+          <div class="index_card"> 
+            <!-- icon -->
+              <div class="icon_text">
+                <h1 >
+                  <i class="fa-solid fa-person-hiking"></i>
+                </h1>
+                <h4>Mountain Maniac</h4>
+              </div>
+
+            <!-- desc -->
+            <div class="index_img_desc">
+              <h4>some title 3 here</h4>
+              <p>some text here</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-3 col-lg-3 col-md-4 col-sm-6 p-2">
+          <div class="index_card"> 
+            <!-- icon -->
+              <div class="icon_text">
+                <h1 >
+                  <i class="fa-solid fa-person-skiing"></i>
+                </h1>
+                <h4>Snow Adventure</h4>
+              </div>
+
+            <!-- desc -->
+            <div class="index_img_desc">
+              <h4>some title 3 here</h4>
+              <p>some text here</p>
+            </div>
+          </div>
+        </div>   
+
+        <!-- card 4 -->
+        <div class="col-3 col-lg-3 col-md-4 col-sm-6 p-2">
+          <div class="index_card"> 
+            <!-- icon -->
+              <div class="icon_text">
+                <h1 >
+                  <i class="fa-solid fa-umbrella-beach"></i>
+                </h1>
+                <h4>Beach Lover</h4>
+              </div>
+
+            <!-- desc -->
+            <div class="index_img_desc">
+              <h4>some title 3 here</h4>
+              <p>some text here</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- cards end -->
+      
+      <div class="position-relative mb-5 p-5">
+        <div class="position-absolute start-50 top-50 translate-middle p-3 mb-5 box_title">
+          <div class="bg-primary p-2" style="color: #FFFFD2;">
+            <h2>
+              Places we go
+            </h2>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row1">
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row2">
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row3">
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row4">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row5">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="row6">
+        </div>
+      </div>
+
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- <div class="modal-header">
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div> -->
+               <div class="modal-body position-relative">
+                <button type="button" class="btn-close text-right position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Plan Features</th>
+                        <th scope="col" class="text-center">
+                            Basic
+                            <p>Rp 1 Mio</p>
+                        </th>
+                        <th scope="col">
+                            Economy
+                            <p>Rp 10 Mio</p>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>service 1</td>
+                        <td class="text-center">Unlimited</td>
+                        <td class="text-center">Unlimited</td>
+                      </tr>
+                      <tr>
+                        <td>service 2</td>
+                        <td class="text-center"><i class="fa-solid fa-circle-check"></i></td>
+                        <td class="text-center">Unlimited</td>
+                      </tr>
+                      <tr>
+                        <td>service 3</td>
+                        <td class="text-center"><i class="fa-solid fa-circle-xmark"></i></td>
+                        <td class="text-center"><i class="fa-solid fa-circle-check"></i></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td><button type="button" class="btn btn-light">Order Now</button></td>
+                        <td><button type="button" class="btn btn-light">Order Now</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+               </div>
+               <!-- <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-primary">Order Now</button>
+               </div> -->
+             </div>
+           </div>
+       </div>
+    </div>
+    <!-- after carousel and card  end-->
+
+
+
+  <!-- footer -->
+   <!-- div about us -->
+    <div class="mt-5" style="background-color: #FFFFD2;">
+      <div class="container mt-5">
+        <div class="row">
+          <!-- col about us -->
+          <div class="col-3 col-sm-12 col-md-6 col-lg-4 p-3">
+            <div class="">
+              <h2>About Us</h2>
+              <p class="text-justify mt-5">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. .
+              </p>
+              <button class="btn btn-priary">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-3 col-sm-12 col-md-6 col-lg-4 p-3">
+            <h4>Contact Info</h4>
+            <br>
+            <h4 class="mt-5">Social Connecting</h4>
+            <i class="btn fa-brands fa-facebook" id="fb_icon"></i>
+          </div>
+          <div class="col-3 col-sm-12 col-md-6 col-lg-4 p-3">
+            <h4>Get in contact</h4>
+            <h5>and get our latest update and promos..</h5>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="input your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-regular fa-envelope"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- div navbar footer -->
+  <div id="navbar_bawah1">
+    <!-- navbar start -->
+    <nav class="navbar p-3">
+      <div class="container" >
+        <a class="align-middle" href="./index.html" style="color:#FFFFD2;">
+          <i class="fa-regular fa-copyright"></i>2024 HACKTIV8 WORKSHOP PROGRAM MUHAMMAD FAQIHUDDIN M
+        </a>
+
+        <div class="navbar-nav d-inline" >
+          <ul class="navbar-nav d-inline-block align-text-right me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./index.html" >HOME</a>
+              </div>
+            </li>
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./portofolio.html" >PORTOFOLIO</a>
+              </div>
+            </li>
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./blog.html" >BLOG</a>
+              </div>
+            </li>
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./about_us.html" >ABOUT US</a>
+              </div>
+            </li>
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./contact.html" >CONTACT</a>
+              </div>
+            </li>
+            <li class="nav-item d-inline me-2">
+              <div class="px-2 py-4 navbar_bawah" style="display: inline-block;">
+                  <a class="nav-link d-inline" href="./todos.html" >TODOS</a>
+              </div>
+            </li>           
+          </ul>
+        </div>
+      </div>
+    </nav>
+   <!-- navbar end -->
+  </div>
+  <!-- div navbar end -->
+  <!-- footer end -->
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+    <!-- fontawesome script -->
+    <script src="https://kit.fontawesome.com/26fe249e2c.js" crossorigin="anonymous"></script>
+    <script src="./script/index.js"></script>
+</body>
+</html>
